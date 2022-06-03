@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(55, 64, 85, 0.9);
   padding: 15px 0;
 }
-#header .logo {
+/* #header .logo {
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -81,13 +81,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 2px;
   font-family: "Poppins", sans-serif;
+} */
+.logo img{
+  
+  height: 9rem;
+  width: auto;
+  border-radius: 50%;
+  position: relative;
+  right: 100px;
 }
-#header .logo a {
-  color: #fff;
-}
-#header .logo img {
+
+/* #header .logo img {
   max-height: 40px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -114,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.5rem;
   white-space: nowrap;
   transition: 0.3s;
 }
